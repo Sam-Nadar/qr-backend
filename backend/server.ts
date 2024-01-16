@@ -7,10 +7,8 @@ import cors from 'cors';
 const app = express();
 const port = 3001;
 
-let corsOptions = { 
-  origin : ['https://qrcode-two-lilac.vercel.app/'], 
-} 
-app.use(cors(corsOptions));
+
+app.use(cors());
 
 app.use(bodyParser.json());
 
