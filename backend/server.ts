@@ -8,7 +8,7 @@ const app = express();
 const port = 3001;
 
 let corsOptions = { 
-  origin : ['http://localhost:5500'], 
+  origin : ['https://qrcodegen-sam-nadars-projects.vercel.app/','https://qrcodegen-lilac.vercel.app/'], 
 } 
 app.use(cors(corsOptions));
 
