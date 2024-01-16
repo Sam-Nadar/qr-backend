@@ -8,7 +8,7 @@ const app = express();
 const port = 3001;
 
 let corsOptions = { 
-  origin : ['https://qrcodegen-sam-nadars-projects.vercel.app/','https://qrcodegen-lilac.vercel.app/'], 
+  origin : ['https://qrcode-two-lilac.vercel.app/'], 
 } 
 app.use(cors(corsOptions));
 
